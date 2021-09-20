@@ -8,7 +8,7 @@ diff -u -r pkg.orig/kolide-k2-launcher/etc/kolide-k2/launcher.flags pkg/kolide-k
 -root_directory /var/kolide-k2/k2device.kolide.com
 -osqueryd_path /usr/local/kolide-k2/bin/osqueryd
 +root_directory /var/lib/kolide-k2/k2device.kolide.com
-+osqueryd_path /opt/kolide-k2/bin/osqueryd
++osqueryd_path /usr/bin/osqueryd
  enroll_secret_path /etc/kolide-k2/secret
 diff -u -r pkg.orig/kolide-k2-launcher/usr/lib/systemd/system/launcher.kolide-k2.service pkg/kolide-k2-launcher/usr/lib/systemd/system/kolide-k2-launcher.service
 --- pkg.orig/kolide-k2-launcher/usr/lib/systemd/system/kolide-k2-launcher.service	2020-01-14 17:22:26.000000000 +0100

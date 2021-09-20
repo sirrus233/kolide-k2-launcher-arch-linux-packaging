@@ -6,7 +6,7 @@ arch=('x86_64')
 url="https://kolide.com/launcher/"
 license=('MIT')
 install="${pkgname}.install"
-depends=("glibc>=2.28")
+depends=("glibc>=2.28", "osquery")
 optdepends=()
 makedepends=()
 source=("${pkgname}.deb" "${pkgname}.patch")
