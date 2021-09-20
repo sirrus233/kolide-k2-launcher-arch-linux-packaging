@@ -9,7 +9,7 @@ post_upgrade() {
 }
 
 pre_remove() {
-    systemctl stop kolide-k2-launcher.service
+    systemctl disable --now kolide-k2-launcher.service
 }
 
 post_remove() {
