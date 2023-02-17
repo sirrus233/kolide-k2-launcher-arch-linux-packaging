@@ -1,5 +1,5 @@
 pkgname=kolide-k2-launcher
-pkgver=0.11.22
+pkgver=0.13.2
 pkgrel=1
 pkgdesc="Kolide Launcher for Osquery"
 arch=('x86_64')
